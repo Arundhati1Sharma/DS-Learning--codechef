@@ -4,8 +4,7 @@ using namespace std;
 // type 3: remove the largest element from the list
 
 signed main()
-{
-    // priority_queue<int> pq;
+{   vector<int> v;
     int q;
     cin>>q;
     while(--q){
@@ -27,9 +26,3 @@ signed main()
         }
     }
 }
-
-// *****Priority Queue*****
-// pq.top() returns the maximum element in a priority queue -->O(1)
-// pq.pop() removes the maximum element from the pq -->O(LogN)
-// pq.push() adds an element to the queue -->O(LogN)
-// This is internally stored as a binary heap
